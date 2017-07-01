@@ -1,4 +1,4 @@
-FROM zencash/gosu-base:latest
+FROM zencash/gosu-base:1.10
 
 MAINTAINER cronicc@protonmail.com
 
