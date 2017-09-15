@@ -8,7 +8,7 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone -b master --single-branch https://github.com/ZencashOfficial/botio.git /root/botio \
+RUN git clone -b development --single-branch https://github.com/ZencashOfficial/botio.git /root/botio \
     && cd /root/botio \
     && npm install -g
 
